@@ -14,7 +14,7 @@ var articleOne = {
                    This is kundhani
                 </p>
                 <p>
-                    This is your paartha da macha
+                    This is me Prabu
                 </p>
                 <p>
                     minion = Kundhani
