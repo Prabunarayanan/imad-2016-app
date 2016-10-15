@@ -3,7 +3,7 @@ console.log('Loaded!');
 // Change the text of the main-text div
 var element = document.getElementById('main-text');
 
-element.innerHTML = 'This page is under Construction';
+element.innerHTML = 'Prabunarayanan Welcomes you to hasura \n This page is under construction';
 
 //move the image
 var img = document.getElementById('hasuran');
