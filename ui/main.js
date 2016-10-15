@@ -8,10 +8,10 @@ element.innerHTML = 'Prabunarayanan Welcomes you to hasura Kingdom. \n This page
 //move the image
 var img = document.getElementById('hasuran');
 var marginLeft = 0;
-function moveLeft () {
-    marginLeft = marginLeft + 1;
-    img.style.marginLeft = marginLeft + 'px';
-}
+function moveRight(){
+               imgObj.style.left = parseInt(imgObj.style.left) + 10 + 'px';
+               animate = setTimeout(moveRight,20); // call moveRight in 20msec
+            }
 img.onclick = function () {
     var interval = setInterval(moveRight, 50);
     };
