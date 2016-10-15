@@ -8,7 +8,7 @@ element.innerHTML = 'Prabunarayanan Welcomes you to hasura Kingdom. \n This page
 //move the image
 var img = document.getElementById('hasuran');
 var marginLeft = 0;
-function moveLeft () {
+function moveRight () {
     marginLeft = marginLeft + 5;
     img.style.marginLeft = marginLeft + 'px';
 }
