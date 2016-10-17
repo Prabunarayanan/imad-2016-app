@@ -12,13 +12,13 @@ var articles = {
   heading: 'Article one',
   date: 'February 14 1996',
   content: ` <p>
-                   This is kundhani
+                   This is me
                 </p>
                 <p>
                     This is me Prabu
                 </p>
                 <p>
-                    minion = Kundhani
+                    minion
                 </p>`
 },
   'article-two' : {
@@ -32,7 +32,7 @@ var articles = {
                         This is me yogi
                     </p>
                     <p>
-                        minion = Kundhani
+                        minion 
                     </p>`
       
   },
