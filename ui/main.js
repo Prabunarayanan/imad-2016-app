@@ -1,17 +1,14 @@
-console.log('Loaded!');
+// Counter code
+var button = document.getElementById('counter');
 
-// Change the text of the main-text div
-var element = document.getElementById('main-text');
-
-element.innerHTML = 'Prabunarayanan Welcomes you to hasura Kingdom. \n This page is under construction. ';
-
-//move the image
-var img = document.getElementById('hasuran');
-var marginLeft = 0;
-function moveRight () {
-    marginLeft = marginLeft + 1;
-    img.style.marginLeft = marginLeft + 'px';
-}
-img.onclick = function () {
-    var interval = setInterval(moveRight, 50);
-    };
+button.oneclick = function () {
+  
+    // Make a request to the counter endpoint
+   
+    // Capture the response and store it in a variable
+    
+    // Render the variable in the correct span
+    counter = counter + 1;
+    var span = document.getElementById('count');
+    span.innerHTML = counter.toString();
+};
