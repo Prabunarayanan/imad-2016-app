@@ -37,8 +37,17 @@ submit.onclick = function (){
     for (var i=0; i< names.length; i++){
         list += '<li>' + names[i] + '</li>';
     }
-    var ul
-}
+    var ul = document.getElementById('namelist');
+    ul.innerHTML = list;
+        }
+    }
+    // Not dont yet
+    };
+    // MAke the request
+    request.open('GET','http://prabunarayanan.imad.hasura-app.io/counter',true);
+    request.send(null);
+    
+    };
 
 
 
