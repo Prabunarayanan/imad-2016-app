@@ -95,10 +95,10 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
-var counter = 0;
-app.get('/counter',function (req,res) {
-    counter = counter + 1;
-    res.send(counter.toString())
+var ping = 0;
+app.get('/ping',function (req,res) {
+    counter = ping + 1;
+    res.send(ping.toString())
 });
 
 var names = [];
