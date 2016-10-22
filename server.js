@@ -97,7 +97,7 @@ app.get('/', function (req, res) {
 
 var ping = 0;
 app.get('/ping',function (req,res) {
-    counter = ping + 1;
+    ping = ping + 1;
     res.send(ping.toString())
 });
 
