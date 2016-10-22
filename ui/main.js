@@ -11,8 +11,8 @@ button.onclick = function() {
         if(request.readyState ===XMLHttpRequest.DONE) {
             //Take sone action
             if(request.status === 200) {
-                var ping = request.responseText;
-                var span = document.getElementById('pingg');
+                var counter = request.responseText;
+                var span = document.getElementById('count');
                 span.innerHTML = counter.toString();
             }
         }
