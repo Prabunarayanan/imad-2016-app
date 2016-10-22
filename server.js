@@ -12,7 +12,7 @@ var articles = {
   heading: 'Article one',
   date: 'February 14 1996',
   content: ` <p>
-                   This is me
+                   This is article one
                 </p>
                 <p>
                     This is me Prabu
@@ -26,7 +26,7 @@ var articles = {
       heading: 'Article two',
       date: 'February 14 2016',
       content: ` <p>
-                       This is me prabu
+                       This is article two
                     </p>
                     <p>
                         This is me yogi
@@ -41,7 +41,7 @@ var articles = {
       heading: 'Article Three',
       date: 'February 14 2017',
       content: ` <p>
-                       This is me prabu
+                       This is article three
                        Romeo & juliet
                     </p>
                     <p>
@@ -124,8 +124,10 @@ app.get('/ui/madi.png', function (req, res) {
 var names = [];
 app.get('/submit-name/:name', function(req,res){
     // Get the name from the request
-    var name; // TODO
+    var name = req.params.name;
+    
     names.push(name);
+    
     res.send(names); // TODO
 });
 
