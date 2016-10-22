@@ -20,7 +20,7 @@ button.onclick = function() {
     };
     
     // Make the request
-    request.open('GET', "http://prabunarayanan.imad.hasura-app.io/counter",true);
+    request.open('GET', "http://prabunarayanan.imad.hasura-app.io/ping",true);
     request.send(null);
 };
 
