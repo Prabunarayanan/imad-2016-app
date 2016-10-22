@@ -1,5 +1,5 @@
 // Counter code
-var button = document.getElementById('ping');
+var button = document.getElementById('counter');
 
 button.onclick = function() { 
     
@@ -11,16 +11,16 @@ button.onclick = function() {
         if(request.readyState ===XMLHttpRequest.DONE) {
             //Take sone action
             if(request.status === 200) {
-                var ping = request.responseText;
-                var span = document.getElementById('ping');
-                span.innerHTML = ping.toString();
+                var counter = request.responseText;
+                var span = document.getElementById('count');
+                span.innerHTML = counter.toString();
             }
         }
         // Not done yet
     };
     
     // Make the request
-    request.open('GET', "http://prabunarayanan.imad.hasura-app.io/ping",true);
+    request.open('GET', "http://prabunarayanan.imad.hasura-app.io/counter",true);
     request.send(null);
 };
 
