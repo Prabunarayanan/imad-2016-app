@@ -73,7 +73,7 @@ function createTemplate (data) {
                 <div class="container">
                 <div>
                     <a href="/">Chammu</a>
-                    <b href="/article-two">Goyyaka</b>
+                    <a href="/article-two">Goyyaka</a>
                 </div>
                 <hr/>
                 <h3>
